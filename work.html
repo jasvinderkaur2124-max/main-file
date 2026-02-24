@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio Home</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+
+<!-- Cursor Circle -->
+<div class="cursor"></div>
+<div class="cursor-outer"></div>
+<div class="cursor-inner"></div>
+
+
+<!-- Navbar -->
+<nav>
+  <img src="images/jk logo.png">
+  <ul>
+     <li><a href="index.html">HOME</a></li>
+    <li><a href="about.html">ABOUT</a></li>
+    <li><a href="work.html">WORK</a></li>
+    <li><a href="contact.html">CONTACT</a></li>
+  </ul>
+</nav>
+
+<!-- Bubbles -->
+<div class="bubbles">
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+
+
+
+
+
+
+
+
+<canvas id="bg-canvas"></canvas>
+
+<section class="main-gallery">
+  <h2>My Creative Work</h2>
+
+  <div class="gallery-grid">
+
+    
+
+    <div class="gallery-card" onclick="openPage('appdesign.html')">
+      <img src="images/app-1.png">
+      <div class="overlay">App Design</div>
+    </div>
+
+    <div class="gallery-card" onclick="openPage('uidesign.html')">
+      <img src="images/ui-3.png">
+      <div class="overlay">UI Design</div>
+    </div>
+
+    <div class="gallery-card" onclick="openPage('landingpage.html')">
+      <img src="images/landing1.png">
+      <div class="overlay">Landing Page</div>
+    </div>
+
+
+ <div class="gallery-card" onclick="openPage('webdesign.html')">
+      <img src="images/1.jpg">
+      <div class="overlay">webdesign</div>
+    </div>
+
+    <!--
+<div class="gallery-card" onclick="openPage('poster.html')">
+  <img src="img/poster.jpg">
+  <div class="overlay">Poster Designs</div>
+</div>
+
+<div class="gallery-card" onclick="openPage('webdesign.html')">
+  <img src="img/web.jpg ">
+  <div class="overlay">Web Design</div>
+</div>
+
+<div class="gallery-card" onclick="openPage('webdesign.html')">
+  <img src="img/web.jpg">
+  <div class="overlay">Packaging</div>
+</div>
+
+<div class="gallery-card" onclick="openPage('webdesign.html')">
+  <img src="img/web.jpg">
+  <div class="overlay">Logo Design</div>
+</div>
+-->
+  </div>
+</section>
+
+
+
+
+
+
+<footer class="portfolio-footer ">
+
+  <div class="footer-content">
+    <h2>Jasvinder Kaur</h2>
+    <p>Creative Designer & Front-End Developer</p>
+
+    <div class="social-links">
+
+  <a href="https://www.instagram.com/jk.designs.___/?hl=en">
+    <i class="fa-brands fa-instagram"></i> 
+
+  <a href="http://linkedin.com/in/jasvinder-kaur-5817ab36b/">
+    <i class="fa-brands fa-linkedin"></i> 
+  </a>
+
+  <a href="https://www.behance.net/jasvinderkaur9">
+    <i class="fa-brands fa-behance"></i> 
+  </a>
+
+  <a href="#">
+    <i class="fa-brands fa-artstation"></i> 
+  </a>
+
+</div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2026 Jasvinder Kaur. All Rights Reserved.</p>
+  </div>
+
+</footer>
+
+
+<button id="scrollTopBtn">↑</button>
+<script src="script.js"></script>
+</body>
+</html>
