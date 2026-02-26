@@ -301,8 +301,8 @@ c
 .about-container {
   width: 100%;                 /* 🔥 FULL WIDTH */
   max-width: 1400px;           /* optional */
-  /* margin: auto;
-  display: flex;
+   margin: auto;
+ /* display: flex;
   align-items: center;
   gap: 50px; */
 }
@@ -1455,4 +1455,5 @@ p{
 
 .jkx-portfolio-zone a {
   text-decoration: none;
+
 }
