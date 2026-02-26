@@ -488,7 +488,7 @@ c
 /* ===== SECOND SECTION ===== */
 .about-section{
   padding:105px 80px;
-  
+  margin:auto;
   color:#fff;
   text-align:center;
   position:relative;
@@ -1457,3 +1457,4 @@ p{
   text-decoration: none;
 
 }
+
