@@ -1028,9 +1028,9 @@ body {
   padding: 50px;
   display: flex;
   gap: 50px;
-      margin-top: 142px;
-
-    margin-left: 119px;
+       margin: auto;
+    
+    margin-top: 162px;;
 }
 
 /* LEFT SIDE */
@@ -1457,4 +1457,5 @@ p{
   text-decoration: none;
 
 }
+
 
